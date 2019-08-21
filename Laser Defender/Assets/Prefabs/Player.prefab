@@ -96,10 +96,12 @@ MonoBehaviour:
   moveSpeed: 10
   padding: 1
   health: 200
+  deathSFX: {fileID: 8300000, guid: a56f7de6710eb4cb698049c7b06a581b, type: 3}
   laserPrefab: {fileID: 1097654916900576480, guid: 62454399be2a24e45b1ea9e3a7b60e1b,
     type: 3}
   projectileSpeed: 20
-  projectileFiringPeriod: 0.05
+  projectileFiringPeriod: 0.3
+  projectileSFX: {fileID: 8300000, guid: d031f00933a8e47329c60ddca63c1e98, type: 3}
 --- !u!60 &4295571544429974055
 PolygonCollider2D:
   m_ObjectHideFlags: 0
